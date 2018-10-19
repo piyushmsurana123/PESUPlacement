@@ -1,5 +1,6 @@
 package com.example.piyus.pesuplacement;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,14 +82,19 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            // Handle the camera action
-        } else if (id == R.id.nav_companies) {
+            Intent intent = new Intent(this,LoginActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.nav_companies) {
 
-        } else if (id == R.id.nav_statistics) {
+        }
+        else if (id == R.id.nav_statistics) {
 
-        } else if (id == R.id.nav_learning_companies) {
+        }
+        else if (id == R.id.nav_learning_companies) {
 
-        } else if (id == R.id.nav_learning_topics) {
+        }
+        else if (id == R.id.nav_learning_topics) {
 
         }
 
