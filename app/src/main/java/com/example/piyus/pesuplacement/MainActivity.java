@@ -82,19 +82,16 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            Intent intent = new Intent(this,LoginActivity.class);
+            Intent intent = new Intent(this, ProfilePage.class);
             startActivity(intent);
-        }
-        else if (id == R.id.nav_companies) {
+            // Handle the camera action
+        } else if (id == R.id.nav_companies) {
 
-        }
-        else if (id == R.id.nav_statistics) {
+        } else if (id == R.id.nav_statistics) {
 
-        }
-        else if (id == R.id.nav_learning_companies) {
+        } else if (id == R.id.nav_learning_companies) {
 
-        }
-        else if (id == R.id.nav_learning_topics) {
+        } else if (id == R.id.nav_learning_topics) {
 
         }
 

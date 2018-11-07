@@ -32,6 +32,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.piyus.pesuplacement.MainActivity" />
         </activity>
+        <activity
+            android:name=".ProfilePage"
+            android:label="@string/title_activity_profile_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".random"></activity>
     </application>
 
 </manifest>
