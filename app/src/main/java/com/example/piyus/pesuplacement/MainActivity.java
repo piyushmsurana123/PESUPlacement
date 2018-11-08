@@ -100,17 +100,9 @@ public class MainActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_statistics) {
 
-<<<<<<< HEAD
         } else if (id == R.id.nav_learning_topics) {
             Intent intent = new Intent(MainActivity.this, LearningActivity.class);
             startActivity(intent);
-=======
-        }
-        else if (id == R.id.nav_learning_companies) {
-
-        }
-        else if (id == R.id.nav_learning_topics) {
->>>>>>> b8db8ce2627fc1fa81e9bc42c1ea449fde71d944
 
         }
 

@@ -20,13 +20,11 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-<<<<<<< HEAD
     <string name="title_activity_list_view">ListViewActivity</string>
     <string name="title_activity_learning">LearningActivity</string>
     <string name="title_activity_learning_filter">LearningFilterActivity</string>
     <string name="title_activity_experience_list_view">ExperienceListViewActivity</string>
     <string name="title_activity_single_experience">SingleExperience</string>
-=======
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
