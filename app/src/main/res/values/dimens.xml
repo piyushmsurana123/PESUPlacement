@@ -5,6 +5,16 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+<<<<<<< HEAD
+    <dimen name="learning_choices_display">150dp</dimen>
+    <dimen name="learning_filter_display">233dp</dimen>
+    <dimen name="radio_button_height">20dp</dimen>
+    <dimen name="radio_group_height">100dp</dimen>
+    <dimen name="filter_apply_button_width">70dp</dimen>
+    <dimen name="filter_apply_count_width">300dp</dimen>
+    <item name="fixed_nav_bar" type="dimen">150dp</item>
+=======
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+>>>>>>> b8db8ce2627fc1fa81e9bc42c1ea449fde71d944
 </resources>

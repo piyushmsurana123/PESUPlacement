@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.piyus.pesuplacement.MainActivity">
+    tools:context=".ExperienceListViewActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,15 +20,24 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_experience_list_view" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp">
 
+
+        <Button
+            android:id="@+id/changeFilterButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Change Filters"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -14,6 +14,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
+
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -41,6 +49,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
     }
 
     @Override
@@ -90,11 +100,17 @@ public class MainActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_statistics) {
 
+<<<<<<< HEAD
+        } else if (id == R.id.nav_learning_topics) {
+            Intent intent = new Intent(MainActivity.this, LearningActivity.class);
+            startActivity(intent);
+=======
         }
         else if (id == R.id.nav_learning_companies) {
 
         }
         else if (id == R.id.nav_learning_topics) {
+>>>>>>> b8db8ce2627fc1fa81e9bc42c1ea449fde71d944
 
         }
 
@@ -102,4 +118,6 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }
