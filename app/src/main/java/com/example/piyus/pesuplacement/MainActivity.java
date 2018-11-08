@@ -92,14 +92,25 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_profile) {
-            // Handle the camera action
-        } else if (id == R.id.nav_companies) {
+            Intent intent = new Intent(this,LoginActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.nav_companies) {
 
-        } else if (id == R.id.nav_statistics) {
+        }
+        else if (id == R.id.nav_statistics) {
 
+<<<<<<< HEAD
         } else if (id == R.id.nav_learning_topics) {
             Intent intent = new Intent(MainActivity.this, LearningActivity.class);
             startActivity(intent);
+=======
+        }
+        else if (id == R.id.nav_learning_companies) {
+
+        }
+        else if (id == R.id.nav_learning_topics) {
+>>>>>>> b8db8ce2627fc1fa81e9bc42c1ea449fde71d944
 
         }
 
